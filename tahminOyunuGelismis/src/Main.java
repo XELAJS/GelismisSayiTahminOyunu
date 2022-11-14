@@ -15,7 +15,7 @@ public class Main {
             if (onay1.equals("evet")) {
                 System.out.println("");
                 System.out.println("Bu oyunda 0 ile 10000 arasında herhangi bir sayı belirlenir ve siz doğru sayıyı bulmaya çalışırsınız." +
-                        "\n Oyunda toplam 20 hakkınız bulunmaktadır.Eğer hakkınız biterse oyunu kaybedersiniz." +
+                        "\n Oyunda toplam 15 hakkınız bulunmaktadır.Eğer hakkınız biterse oyunu kaybedersiniz." +
                         "\n Eğer hakkınız bitmeden sayıyı bulabilirseniz oyunu kazanırsınız.İyi oyunlar.");
                 System.out.println("");
             } else if (onay1.equals("hayır")) {
@@ -109,7 +109,7 @@ public class Main {
             if (onay2.equals("evet")) {
                 System.out.println("Bu oyunda 0 ile 10000 arasında herhangi bir sayı belirlenir ve siz doğru sayıyı bulmaya çalışırsınız." +
                         "\n Bu modda sıra önce 1.oyuncuyla başlar eğer 1.oyuncu cevabı doğru bulamassa sıra 2.oyuncuya geçer." +
-                        "\n Oyunda her oyuncunun 20 hakkı vardır hakkınız dolduğunda oyunu kaybedersiniz.Eğer 2 oyuncununda hakkı biterse oyun berabere olur kimseye puan verilmez." +
+                        "\n Oyunda her oyuncunun 15 hakkı vardır hakkınız dolduğunda oyunu kaybedersiniz.Eğer 2 oyuncununda hakkı biterse oyun berabere olur kimseye puan verilmez." +
                         "\n Eğer herhangi bir oyuncu cevabı doru bulduysa ona 1 puan eklenir.Önce hangi oyuncunun 2 puanı olursa o kazanır." +"\n" +
                                 "Oyunumuz 3 defa tekrarlanabilir olduğundan eğer 3 elde kimse 2 olamassa puanı yüksek olan kazanır"+"\n"+
                         "Puanlar eşit ise berabere sayılırlar"+
@@ -177,7 +177,7 @@ public class Main {
             while (sayi != tahmin1 || sayi != tahmin2) {
 
                 if (sira.equals(oyuncu2)) {
-                    if (i1 == 20 && i2 < 20) {
+                    if (i1 == 15 && i2 < 15) {
 
                         if (tahmin2 < 0 || tahmin2 > 10000 || tahmin2 < sayi || tahmin2 > sayi) {
                             System.out.println("Durum berabere.");
@@ -188,7 +188,7 @@ public class Main {
                             break;
                         }
 
-                    } else if (i2 < 20) {
+                    } else if (i2 < 15) {
                         if (tahmin2 < 0 || tahmin2 > 10000) {
 
                             System.out.print(oyuncu2 + " girdiğiniz değer hatalı lütfen 0 ile 10000 arasında bir sayı giriniz (0 ve 10000 dahil)." +
@@ -225,7 +225,7 @@ public class Main {
                         break;
                     }
                 } else {
-                    if (i1 < 20) {
+                    if (i1 < 15) {
                         if (tahmin1 < 0 || tahmin1 > 10000) {
 
                             System.out.print(oyuncu1 + " girdiğiniz değer hatalı lütfen 0 ile 10000 arasında bir sayı giriniz (0 ve 10000 dahil)." +
@@ -303,7 +303,7 @@ public class Main {
                 while (sayi != tahmin1 || sayi != tahmin2) {
 
                     if (sira.equals(oyuncu2)) {
-                        if (i1 == 20 && i2 < 20) {
+                        if (i1 == 15 && i2 < 15) {
 
                             if (tahmin2 < 0 || tahmin2 > 10000 || tahmin2 < sayi || tahmin2 > sayi) {
                                 System.out.println("Durum berabere.");
@@ -316,7 +316,7 @@ public class Main {
                                 break;
                             }
 
-                        } else if (i2 < 20) {
+                        } else if (i2 < 15) {
                             if (tahmin2 < 0 || tahmin2 > 10000) {
 
                                 System.out.print(oyuncu2 + " girdiğiniz değer hatalı lütfen 0 ile 10000 arasında bir sayı giriniz (0 ve 10000 dahil)." +
@@ -353,7 +353,7 @@ public class Main {
                             break;
                         }
                     } else {
-                        if (i1 < 20) {
+                        if (i1 < 15) {
                             if (tahmin1 < 0 || tahmin1 > 10000) {
 
                                 System.out.print(oyuncu1 + " girdiğiniz değer hatalı lütfen 0 ile 10000 arasında bir sayı giriniz (0 ve 10000 dahil)." +
@@ -420,7 +420,7 @@ public class Main {
                     while (sayi != tahmin1 || sayi != tahmin2) {
 
                         if (sira.equals(oyuncu2)) {
-                            if (i1 == 20 && i2 < 20) {
+                            if (i1 == 15 && i2 < 15) {
 
                                 if (tahmin2 < 0 || tahmin2 > 10000 || tahmin2 < sayi || tahmin2 > sayi) {
                                     System.out.println("Durum berabere.");
@@ -433,7 +433,7 @@ public class Main {
                                     break;
                                 }
 
-                            } else if (i2 < 20) {
+                            } else if (i2 < 15) {
                                 if (tahmin2 < 0 || tahmin2 > 10000) {
 
                                     System.out.print(oyuncu2 + " girdiğiniz değer hatalı lütfen 0 ile 10000 arasında bir sayı giriniz (0 ve 10000 dahil)." +
@@ -470,7 +470,7 @@ public class Main {
                                 break;
                             }
                         } else {
-                            if (i1 < 20) {
+                            if (i1 < 15) {
                                 if (tahmin1 < 0 || tahmin1 > 10000) {
 
                                     System.out.print(oyuncu1 + " girdiğiniz değer hatalı lütfen 0 ile 10000 arasında bir sayı giriniz (0 ve 10000 dahil)." +
@@ -547,7 +547,7 @@ public class Main {
                     while (sayi != tahmin1 || sayi != tahmin2) {
 
                         if (sira.equals(oyuncu2)) {
-                            if (i1 == 20 && i2 < 20) {
+                            if (i1 == 15 && i2 < 15) {
 
                                 if (tahmin2 < 0 || tahmin2 > 10000 || tahmin2 < sayi || tahmin2 > sayi) {
                                     System.out.println("Durum berabere.");
@@ -560,7 +560,7 @@ public class Main {
                                     break;
                                 }
 
-                            } else if (i2 < 20) {
+                            } else if (i2 < 15) {
                                 if (tahmin2 < 0 || tahmin2 > 10000) {
 
                                     System.out.print(oyuncu2 + " girdiğiniz değer hatalı lütfen 0 ile 10000 arasında bir sayı giriniz (0 ve 10000 dahil)." +
@@ -597,7 +597,7 @@ public class Main {
                                 break;
                             }
                         } else {
-                            if (i1 < 20) {
+                            if (i1 < 15) {
                                 if (tahmin1 < 0 || tahmin1 > 10000) {
 
                                     System.out.print(oyuncu1 + " girdiğiniz değer hatalı lütfen 0 ile 10000 arasında bir sayı giriniz (0 ve 10000 dahil)." +
